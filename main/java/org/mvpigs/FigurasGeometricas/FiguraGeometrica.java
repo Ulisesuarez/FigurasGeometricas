@@ -4,13 +4,13 @@ public abstract class FiguraGeometrica {
 	
 	
 
-	private String nombre;
+	private String nombre=null;
 	 
 
 
 	public FiguraGeometrica(){
 		super();
-		this.nombre="";
+		this.nombre="desconocido";
 		
 		
 	}
@@ -18,7 +18,12 @@ public abstract class FiguraGeometrica {
 	
 	public abstract double area();
 	
-	public abstract String getNombre();
+	public  String getNombre(){
+		return this.nombre;
+	}
+	public void setNombre(String nombre){
+		this.nombre = nombre;
+}
 	
 	
 	

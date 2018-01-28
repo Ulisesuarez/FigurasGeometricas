@@ -2,8 +2,8 @@ package org.mvpigs.FigurasGeometricas;
 
 public class Cuadrado extends FiguraGeometrica {
 
-	private double lado;
-	private String nombre;
+	private double lado=0d;
+	private String nombre=null;
 
 	public Cuadrado(double lado){
 		

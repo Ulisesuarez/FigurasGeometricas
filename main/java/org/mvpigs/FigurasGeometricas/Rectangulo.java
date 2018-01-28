@@ -2,9 +2,10 @@ package org.mvpigs.FigurasGeometricas;
 
 public class Rectangulo  extends FiguraGeometrica{
 
-	private double ancho;
-	private double largo;
-	private String nombre;
+	private double ancho=0d;
+	private double largo=0d;
+	private String nombre=null;
+	
 
 	public Rectangulo(double ancho, double largo) {
 		super();

@@ -2,8 +2,9 @@ package org.mvpigs.FigurasGeometricas;
 
 public class Circulo extends FiguraGeometrica {
 	
-	private double radio;
-	private String nombre;
+	private double radio= 0d;
+	private String nombre=null;
+	private final double PI = Math.PI;
 
 	public Circulo(double i) {
 		super();
@@ -16,7 +17,7 @@ public class Circulo extends FiguraGeometrica {
 	@Override
 	public double area() {
 		// TODO Auto-generated method stub
-		return Math.round(100*Math.pow(this.radio, 2)*Math.PI)/100.0 ;
+		return Math.round(100*Math.pow(this.radio, 2)*PI)/100.0 ;
 	}
 
 	

@@ -2,9 +2,10 @@ package org.mvpigs.FigurasGeometricas;
 
 public class Elipse extends FiguraGeometrica {
 	
-	private String nombre;
-	private double semiejeMayor;
-	private double semiejeMenor;
+	private String nombre=null;
+	private double semiejeMayor=0d;
+	private double semiejeMenor=0d;
+	private final double PI = Math.PI;
 	
 	public Elipse(double semiejeMayor,double semiejeMenor){
 		
@@ -16,7 +17,7 @@ public class Elipse extends FiguraGeometrica {
 	@Override
 	public double area() {
 		
-		return Math.round(100*this.semiejeMayor*this.semiejeMenor*Math.PI)/100.0;
+		return Math.round(100*this.semiejeMayor*this.semiejeMenor*PI)/100.0;
 	}
 
 	@Override
