@@ -9,11 +9,12 @@ public class Circulo extends FiguraGeometrica {
 	public Circulo(double i) {
 		super();
 		
-		this.setRadio(i);
+		this.radio=i;
 		this.nombre="círculo";
 		
 
 	}
+	
 	@Override
 	public double area() {
 		// TODO Auto-generated method stub

@@ -23,7 +23,7 @@ public class Cuadrado extends FiguraGeometrica {
 	@Override
 	public String getNombre() {
 		
-		return this.nombre;
+		return super.getNombre();
 	}
 
 }

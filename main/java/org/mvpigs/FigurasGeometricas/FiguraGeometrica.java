@@ -9,10 +9,13 @@ public abstract class FiguraGeometrica {
 
 
 	public FiguraGeometrica(){
-		super();
+		
 		this.nombre="desconocido";
 		
 		
+	}
+	public FiguraGeometrica(String nombre){
+		this.nombre=nombre;
 	}
 
 	
